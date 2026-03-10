@@ -1,323 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SK9 Webstore | Web Development Services Hyderabad</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        background: #f4f4f4;
-        line-height: 1.6;
-      }
+<title>SK9 Webstore | Web Development Services Hyderabad</title>
 
-      header {
-        background: #204a75;
-        color: white;
-        padding: 30px;
-        text-align: center;
-      }
+<style>
 
-      .header-container {
-        display: flex;
-        align-items: center;
-        justify-content: left;
-        gap: 70px;
-      }
+body{
+font-family:'Segoe UI',Arial,sans-serif;
+margin:0;
+background:#f5f7fb;
+line-height:1.6;
+color:#333;
+}
 
-      .logo {
-        width: 140px;
-      }
+/* HEADER */
 
-      .header-text {
-        text-align: left;
-      }
+header{
+background:linear-gradient(135deg,#0066cc,#004a99);
+color:white;
+padding:40px 20px;
+}
 
-      header h1 {
-        margin: 0;
-        font-size: 32px;
-      }
+.header-container{
+max-width:1200px;
+margin:auto;
+display:flex;
+align-items:center;
+gap:30px;
+}
 
-      header p {
-        margin-top: 20px;
-        color: #ccc;
-      }
+.logo{
+width:120px;
+}
 
-      .container {
-        max-width: 1200px;
-        margin: auto;
-        padding: 30px;
-        background: white;
-        margin-top: 20px;
-      }
+header h1{
+margin:0;
+font-size:34px;
+letter-spacing:1px;
+}
 
-      h2 {
-        color: #333;
-        margin-bottom: 15px;
-      }
+header p{
+margin-top:8px;
+color:#e3e9f3;
+font-size:15px;
+}
 
-      .services ul {
-        padding-left: 20px;
-      }
+/* CONTAINER */
 
-      .services li {
-        margin-bottom: 10px;
-      }
+.container{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+}
 
-      .project {
-        border: 1px solid #ddd;
-        padding: 15px;
-        margin-top: 15px;
-        border-radius: 6px;
-      }
+/* HEADINGS */
 
-      button {
-        background: #256eb8;
-        color: white;
-        border: none;
-        padding: 12px 20px;
-        margin-top: 15px;
-        cursor: pointer;
-        border-radius: 5px;
-      }
+h2{
+text-align:center;
+color:#0066cc;
+font-size:30px;
+margin-bottom:20px;
+position:relative;
+}
 
-      button:hover {
-        background: #005fd1;
-      }
+h2::after{
+content:"";
+display:block;
+width:80px;
+height:4px;
+background:linear-gradient(to right,#0066cc,#00bfff);
+margin:10px auto 0;
+border-radius:3px;
+}
 
-      footer {
-        background: #204a75;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        margin-top: 30px;
-      }
+/* ABOUT */
 
-      .services-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 40px;
-        margin-top: 40px;
-      }
+.about-sk9webstore{
+background:white;
+}
 
-      .service-card {
-        background: #ffffff;
-        padding: 25px;
-        border-radius: 12px;
-        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-        transition: 0.3s;
-      }
+.about-sk9webstore p{
+max-width:900px;
+margin:auto;
+margin-bottom:18px;
+font-size:16px;
+color:#444;
+text-align:center;
+}
 
-      .service-card:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
-      }
+/* BUTTON */
 
-      .service-card h3 {
-        color: #0066cc;
-        margin-bottom: 10px;
-      }
+.btn{
+background:#0066cc;
+color:white;
+border:none;
+padding:12px 26px;
+border-radius:6px;
+cursor:pointer;
+font-size:15px;
+font-weight:600;
+transition:0.3s;
+}
 
-      .service-card p {
-        color: #555;
-      }
+.btn:hover{
+background:#004a99;
+transform:translateY(-2px);
+}
 
-      .service-card ul {
-        padding-left: 18px;
-        margin-top: 10px;
-      }
+/* SERVICES */
 
-      .service-card ul li {
-        margin-bottom: 6px;
-      }
-    </style>
-  </head>
+.services{
+background:#f5f7fb;
+}
 
-  <body>
-    <header>
-      <div class="header-container">
-        <img src="sk9logo.png" alt="SK9 Webstore Logo" class="logo" />
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+margin-top:40px;
+}
 
-        <div class="header-text">
-          <h1>SK9 Webstore</h1>
-          <p>Web Design | Website Development | SEO Services</p>
-        </div>
-      </div>
-    </header>
+.service-card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+transition:0.3s;
+}
 
-    <section class="about-sk9webstore">
-      <div class="container">
-        <h2 style="color: #0066cc">Welcome to SK9 Webstore</h2>
+.service-card:hover{
+transform:translateY(-6px);
+box-shadow:0 14px 28px rgba(0,0,0,0.12);
+}
 
-        <p>
-          At <strong>SK9 Webstore</strong>, we are your trusted partner for
-          high-quality, custom-designed websites that drive real results.
-          Whether you need <strong>Web Design</strong>,
-          <strong>E-commerce Development</strong>, or
-          <strong>SEO-focused Content Services</strong>, our expert team based
-          in <strong>Hyderabad</strong> is here to deliver excellence tailored
-          to your brand’s unique goals.
-        </p>
+.service-card h3{
+color:#0066cc;
+margin-bottom:10px;
+}
 
-        <p>
-          We specialize in crafting <strong>SEO-optimized</strong>,
-          <strong>mobile-responsive</strong>, and
-          <strong>user-friendly</strong> websites that not only look visually
-          stunning but are built to convert. From sleek portfolio sites to fully
-          integrated e-commerce platforms, every project we take on is backed by
-          strategy, creativity, and the latest technology.
-        </p>
+.service-card p{
+color:#555;
+}
 
-        <p>
-          Our solutions are ideal for
-          <strong>startups, growing businesses, and enterprises</strong> alike —
-          whether you're launching a new product, expanding your reach, or
-          aiming to increase your search engine visibility. At SK9 Webstore, we
-          don't just build websites; we help you build your
-          <strong>digital success story</strong>.
-        </p>
+.service-card ul{
+padding-left:18px;
+margin-top:10px;
+}
 
-        <p>💡 Why settle for ordinary when you can go extraordinary?</p>
+.service-card li{
+margin-bottom:6px;
+}
 
-        <div style="text-align: center">
-          <button onclick="window.location.href='https://wa.me/919703964126'">
-            Contact Us on WhatsApp
-          </button>
-        </div>
-      </div>
-    </section>
+/* CONTACT */
 
-    <section class="services">
-      <div class="container">
-        <h2 class="page-title">Our Services</h2>
+.contact{
+background:white;
+text-align:center;
+}
 
-        <p class="intro-text">
-          At SK9 Webstore, we deliver innovative and results-driven digital
-          solutions to help businesses grow online.
-        </p>
+.contact p{
+font-size:16px;
+}
 
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>Web Design</h3>
-            <p>
-              Your website is the face of your brand. We create visually
-              stunning and responsive websites.
-            </p>
-            <ul>
-              <li>Custom Website Designs</li>
-              <li>Responsive Layouts</li>
-              <li>UI/UX Design</li>
-              <li>Brand-Centric Aesthetics</li>
-            </ul>
-          </div>
+/* FOOTER */
 
-          <div class="service-card">
-            <h3>Web Development</h3>
-            <p>
-              Robust and scalable development solutions for modern websites.
-            </p>
-            <ul>
-              <li>E-commerce Development</li>
-              <li>CMS Integration</li>
-              <li>Custom Web Applications</li>
-              <li>API Integration</li>
-            </ul>
-          </div>
+footer{
+background:#0e2b4d;
+color:#ccc;
+text-align:center;
+padding:25px;
+font-size:14px;
+}
 
-          <div class="service-card">
-            <h3>Graphic Design</h3>
-            <p>Creative designs that strengthen your brand identity.</p>
-            <ul>
-              <li>Logo Design</li>
-              <li>Business Cards</li>
-              <li>Social Media Graphics</li>
-              <li>Brand Identity</li>
-            </ul>
-          </div>
+footer p{
+margin:0;
+}
 
-          <div class="service-card">
-            <h3>SEO Optimization</h3>
-            <p>Improve search rankings and attract organic traffic.</p>
-            <ul>
-              <li>On-Page SEO</li>
-              <li>Keyword Research</li>
-              <li>Technical SEO Audit</li>
-              <li>Local SEO</li>
-            </ul>
-          </div>
+</style>
+</head>
 
-          <div class="service-card">
-            <h3>Digital Marketing</h3>
-            <p>
-              Grow your online presence with data-driven marketing strategies.
-            </p>
-            <ul>
-              <li>Social Media Marketing</li>
-              <li>PPC Advertising</li>
-              <li>Email Marketing</li>
-              <li>Content Marketing</li>
-            </ul>
-          </div>
+<body>
 
-          <div class="service-card">
-            <h3>Content Writing</h3>
-            <p>
-              Engaging and SEO-friendly content that converts visitors into
-              customers.
-            </p>
-            <ul>
-              <li>Website Content</li>
-              <li>Blog Writing</li>
-              <li>Product Descriptions</li>
-              <li>Ad Copywriting</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+<header>
 
-    <!--    <section class="portfolio">
-      <div class="container">
-        <h2>Portfolio</h2>
+<div class="header-container">
 
-        <div class="project">
-          <h3>Restaurant Website</h3>
-          <p>Modern and responsive restaurant landing page design.</p>
-        </div>
+<img src="sk9logo.png" class="logo">
 
-        <div class="project">
-          <h3>Gym Website</h3>
-          <p>Fitness website designed for gyms and personal trainers.</p>
-        </div>
+<div>
+<h1>SK9 Webstore</h1>
+<p>Web Design • Website Development • SEO Services</p>
+</div>
 
-        <div class="project">
-          <h3>Business Landing Page</h3>
-          <p>
-            Clean and professional landing page for startups and businesses.
-          </p>
-        </div>
-      </div>
-    </section> -->
+</div>
 
-    <section class="contact">
-      <div class="container">
-        <h2>Contact</h2>
+</header>
 
-        <p>Email: sk9shiva@gmail.com</p>
-        <p>Location: Hyderabad, India</p>
+<section class="about-sk9webstore">
 
-        <div style="text-align: center">
-          <button onclick="window.location.href='mailto:sk9shiva@gmail.com'">
-            Send Email
-          </button>
-        </div>
-      </div>
-    </section>
+<div class="container">
 
-    <footer>
-      <p>© 2026 SK9 Webstore | All Rights Reserved</p>
-    </footer>
-  </body>
+<h2>Welcome to SK9 Webstore</h2>
+
+<p>
+At <strong>SK9 Webstore</strong>, we are your trusted partner for high-quality, custom-designed websites that drive real results.
+Whether you need <strong>Web Design</strong>, <strong>E-commerce Development</strong>, or
+<strong>SEO-focused Content Services</strong>, our team based in <strong>Hyderabad</strong> is ready to help your business grow online.
+</p>
+
+<p>
+We specialize in building <strong>SEO-optimized</strong>, <strong>mobile-responsive</strong>, and
+<strong>user-friendly</strong> websites designed to convert visitors into customers.
+</p>
+
+<p>
+From modern business websites to powerful e-commerce stores, every project we create is built with strategy, creativity, and performance in mind.
+</p>
+
+<div style="text-align:center;margin-top:25px;">
+
+<button class="btn" onclick="window.location.href='https://wa.me/919703964126'">
+Contact Us on WhatsApp
+</button>
+
+</div>
+
+</div>
+</section>
+
+<section class="services">
+
+<div class="container">
+
+<h2>Our Services</h2>
+
+<div class="services-grid">
+
+<div class="service-card">
+<h3>Web Design</h3>
+<p>Modern and responsive website designs that create strong first impressions.</p>
+<ul>
+<li>Custom Website Designs</li>
+<li>Responsive Layouts</li>
+<li>UI/UX Design</li>
+<li>Brand-Focused Layouts</li>
+</ul>
+</div>
+
+<div class="service-card">
+<h3>Web Development</h3>
+<p>Scalable and powerful websites built using modern technologies.</p>
+<ul>
+<li>E-commerce Development</li>
+<li>WordPress / CMS Setup</li>
+<li>Custom Web Applications</li>
+<li>API Integration</li>
+</ul>
+</div>
+
+<div class="service-card">
+<h3>Graphic Design</h3>
+<p>Creative visuals that strengthen your brand identity.</p>
+<ul>
+<li>Logo Design</li>
+<li>Business Cards</li>
+<li>Social Media Graphics</li>
+<li>Brand Identity</li>
+</ul>
+</div>
+
+<div class="service-card">
+<h3>SEO Optimization</h3>
+<p>Improve your website ranking and reach more customers.</p>
+<ul>
+<li>On-Page SEO</li>
+<li>Keyword Research</li>
+<li>Technical SEO Audit</li>
+<li>Local SEO</li>
+</ul>
+</div>
+
+<div class="service-card">
+<h3>Digital Marketing</h3>
+<p>Data-driven marketing strategies to grow your online presence.</p>
+<ul>
+<li>Social Media Marketing</li>
+<li>PPC Advertising</li>
+<li>Email Marketing</li>
+<li>Content Marketing</li>
+</ul>
+</div>
+
+<div class="service-card">
+<h3>Content Writing</h3>
+<p>SEO-friendly content that attracts traffic and converts visitors.</p>
+<ul>
+<li>Website Content</li>
+<li>Blog Writing</li>
+<li>Product Descriptions</li>
+<li>Ad Copywriting</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+</section>
+
+<section class="contact">
+
+<div class="container">
+
+<h2>Contact Us</h2>
+
+<p>Email: sk9shiva@gmail.com</p>
+<p>Location: Hyderabad, India</p>
+
+<div style="margin-top:20px;">
+
+<button class="btn" onclick="window.location.href='mailto:sk9shiva@gmail.com'">
+Send Email
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 SK9 Webstore | All Rights Reserved</p>
+</footer>
+
+</body>
 </html>
