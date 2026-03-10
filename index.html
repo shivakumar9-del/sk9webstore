@@ -94,6 +94,44 @@
         padding: 20px;
         margin-top: 30px;
       }
+
+      .services-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(280px,1fr));
+  gap:25px;
+  margin-top:40px;
+}
+
+.service-card{
+  background:#ffffff;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+  transition:0.3s;
+}
+
+.service-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 12px 25px rgba(0,0,0,0.12);
+}
+
+.service-card h3{
+  color:#0066cc;
+  margin-bottom:10px;
+}
+
+.service-card p{
+  color:#555;
+}
+
+.service-card ul{
+  padding-left:18px;
+  margin-top:10px;
+}
+
+.service-card ul li{
+  margin-bottom:6px;
+}
     </style>
   </head>
 
@@ -151,7 +189,94 @@
       </div>
     </section>
 
-    <section class="services"></section>
+    <section class="services">
+      <div class="container">
+        <h2 class="page-title">Our Services</h2>
+
+        <p class="intro-text">
+          At SK9 Webstore, we deliver innovative and results-driven digital
+          solutions to help businesses grow online.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>Web Design</h3>
+            <p>
+              Your website is the face of your brand. We create visually
+              stunning and responsive websites.
+            </p>
+            <ul>
+              <li>Custom Website Designs</li>
+              <li>Responsive Layouts</li>
+              <li>UI/UX Design</li>
+              <li>Brand-Centric Aesthetics</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3>Web Development</h3>
+            <p>
+              Robust and scalable development solutions for modern websites.
+            </p>
+            <ul>
+              <li>E-commerce Development</li>
+              <li>CMS Integration</li>
+              <li>Custom Web Applications</li>
+              <li>API Integration</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3>Graphic Design</h3>
+            <p>Creative designs that strengthen your brand identity.</p>
+            <ul>
+              <li>Logo Design</li>
+              <li>Business Cards</li>
+              <li>Social Media Graphics</li>
+              <li>Brand Identity</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3>SEO Optimization</h3>
+            <p>Improve search rankings and attract organic traffic.</p>
+            <ul>
+              <li>On-Page SEO</li>
+              <li>Keyword Research</li>
+              <li>Technical SEO Audit</li>
+              <li>Local SEO</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3>Digital Marketing</h3>
+            <p>
+              Grow your online presence with data-driven marketing strategies.
+            </p>
+            <ul>
+              <li>Social Media Marketing</li>
+              <li>PPC Advertising</li>
+              <li>Email Marketing</li>
+              <li>Content Marketing</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3>Content Writing</h3>
+            <p>
+              Engaging and SEO-friendly content that converts visitors into
+              customers.
+            </p>
+            <ul>
+              <li>Website Content</li>
+              <li>Blog Writing</li>
+              <li>Product Descriptions</li>
+              <li>Ad Copywriting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="portfolio">
       <div class="container">
