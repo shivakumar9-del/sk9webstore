@@ -79,14 +79,14 @@
         margin: auto;
         display: flex;
         flex-wrap: wrap;
-        gap: 18px;
-        justify-content: center;
+        gap: 30px;
+        justify-content: right;
       }
 
       nav a {
         color: #e3e9f3;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 600;
         padding: 6px 4px;
       }
@@ -114,7 +114,7 @@
       }
 
       .logo {
-        width: 100px;
+        width: 150px;
       }
 
       header h1 {
@@ -126,7 +126,7 @@
       header p {
         margin-top: 8px;
         color: #e3e9f3;
-        font-size: 15px;
+        font-size: 18px;
       }
 
       /* CONTAINER */
@@ -294,7 +294,7 @@
       }
 
       .client-card {
-        background: white;
+        width: 400px;
         padding: 30px;
         border-radius: 12px;
         box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -318,7 +318,20 @@
 
       /* RESPONSIVE BREAKPOINTS */
 
-      @media (max-width: 768px) {
+      @media (min-width: 768px) and (max-width: 1024px) {
+        .container1 {
+          padding: 50px;
+        }
+
+        .container {
+          padding: 50px;
+        }
+        .client-card {
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 767px) {
         header {
           padding: 30px 16px;
         }
@@ -338,7 +351,11 @@
 
         .container,
         .container1 {
-          padding: 40px 16px;
+          padding: 40px 20px;
+        }
+
+        .client-card {
+          width: 100%;
         }
 
         h2 {
@@ -382,6 +399,11 @@
           font-size: 13px;
         }
       }
+
+      .sk9head {
+        margin-top: 18px;
+        margin-left: 20px;
+      }
     </style>
   </head>
 
@@ -406,7 +428,7 @@
           height="100"
         />
 
-        <div>
+        <div class="sk9head">
           <h1>SK9 Webstore</h1>
           <p>Web Design • Website Development • SEO Services in Hyderabad</p>
         </div>
